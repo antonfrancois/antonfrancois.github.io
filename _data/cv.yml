@@ -15,18 +15,26 @@
       institution: Université Paris-Cité 
       year: 2019 - 2023
       description:
-        - Recalage d'images avec prise en compte des variations topologiques. Application à la construction d’atlas de glioblastomes en imagerie cérébrale
-        - Description 2.
-        - title: Description 3.
+        - Diffeomorphic image registration taking topological differences into account. Metamorphosis on brain MRI containing Glioblastomas
+        - This thesis addresses the problem of registering images with different topologies with diffeomorphic deformation. We focus on the case of medical images of glioblastomas, a type of brain tumour. Firstly, we implemented both Metamorphosis and LDDMM for images in 2D and 3D. Our implementation is object-oriented and developed using PyTorch, allowing for versatility in usage and easy modifications. We also used a semi-Lagrangian scheme on both images and residual.The implementation is GPU-accelerated, and we demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets. Secondly, we address the difficulties associated with the Metamorphosis algorithm by proposing a framework for incorporating prior knowledge into the model, called Constrained Metamorphosis. The framework allows for adding constraints on the registration problem by also matching given priors. We present two specific types of priors that can be incorporated into the model; a growing mask generated from a given segmentation and a field that guides the deformation in a desired direction. We demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets, comparing with state-of-the- art methods. Finally, we developed a tumour segmentation tool using Topological Data Analysis (TDA) to detect characteristic components within the FLAIR and T1ce modalities.
+        - <a href="https://www.theses.fr/s228301">follow this link for more information</a>
+        - title: Suppervised by,
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Master 2 Modelisation and simulation
+            - Joan A. Glaunès.
+            - Pietro Gori.
+    - title: Master 2 - Mathematic, Modelisation and learning
       institution: Université Paris Descartes
       year: 2018 - 2019
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Master 1 - Mathematic and Modelisation
+      institution: Université Paris Descartes
+      year: 2016 - 2017
+    - title: Bachelor - Modelisation and Modelisation
+      institution: Université Paris Descartes
+      year: 2014 - 2016
+    - title: Bachelor - Frontiers in Life Science
+      institution: Paris Interdisciplinary Research Center (CRI)
+      year: 2012 - 2015
+      
 
 - title: Experience
   type: time_table
