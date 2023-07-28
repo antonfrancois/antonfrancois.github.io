@@ -10,4 +10,3 @@ css_ids:
         ids:
         - button-seemore
 ---
-Pour un cv en français cliquez sur l'icône 'pdf' à droite
