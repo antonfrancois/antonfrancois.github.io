@@ -16,9 +16,9 @@
       year: 2019 - 2023
       - title: Suppervised by,
         contents:
-          - Joan A. Glaunès.
-          - Pietro Gori.
-      - title: <b>Diffeomorphic image registration taking topological differences into account</b>. Metamorphosis on brain MRI containing Glioblastomas
+          - <a href= "https://helios2.mi.parisdescartes.fr/~glaunes/"> Joan A. Glaunès. </a>
+          - <a href = "https://perso.telecom-paristech.fr/pgori/">Pietro Gori.</a>
+      - title: Diffeomorphic image registration taking topological differences into account. Metamorphosis on brain MRI containing Glioblastomas
       # text: |
       #  <div>
       #     <p>This thesis addresses the problem of registering images with different topologies with diffeomorphic deformation. We focus on the case of medical images of glioblastomas, a type of brain tumour. Firstly, we implemented...</p>
