@@ -12,7 +12,7 @@
   type: time_table
   contents:
     - title: PhD - Applied Maths 
-      institution: Université Paris-Cité 
+      institution: <a href = https://map5.mi.parisdescartes.fr/> MAP5 laboratory - Université Paris-Cité </a>
       year: 2019 - 2023
       description:
         - title: Under the suppervision of,
@@ -23,10 +23,10 @@
         - |
          <div>
             <p>This thesis addresses the problem of registering images with different topologies with diffeomorphic deformation. We focus on the case of medical images of glioblastomas, a type of brain tumour. Firstly, we implemented...</p>
-            <button data-toggle="collapse" data-target="#collapse-id">See more</button>
+            <button data-toggle="collapse" data-target="#collapse-id" style="font-size: 12px;outline: none;background: transparent;border: none;font-size: 1rem;text-transform: lowercase;color: blue;" onclick="this.textContent = 'See less';">See more</button>
           </div>
           <div id="collapse-id" class="collapse">
-            <p>This thesis addresses the problem of registering images with different topologies with diffeomorphic deformation. We focus on the case of medical images of glioblastomas, a type of brain tumour. Firstly, we implemented both Metamorphosis and LDDMM for images in 2D and 3D. Our implementation is object-oriented and developed using PyTorch, allowing for versatility in usage and easy modifications. We also used a semi-Lagrangian scheme on both images and residual.The implementation is GPU-accelerated, and we demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets. Secondly, we address the difficulties associated with the Metamorphosis algorithm by proposing a framework for incorporating prior knowledge into the model, called Constrained Metamorphosis. The framework allows for adding constraints on the registration problem by also matching given priors. We present two specific types of priors that can be incorporated into the model; a growing mask generated from a given segmentation and a field that guides the deformation in a desired direction. We demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets, comparing with state-of-the- art methods. Finally, we developed a tumour segmentation tool using Topological Data Analysis (TDA) to detect characteristic components within the FLAIR and T1ce modalities.</p>
+            <p> both Metamorphosis and LDDMM for images in 2D and 3D. Our implementation is object-oriented and developed using PyTorch, allowing for versatility in usage and easy modifications. We also used a semi-Lagrangian scheme on both images and residual.The implementation is GPU-accelerated, and we demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets. Secondly, we address the difficulties associated with the Metamorphosis algorithm by proposing a framework for incorporating prior knowledge into the model, called Constrained Metamorphosis. The framework allows for adding constraints on the registration problem by also matching given priors. We present two specific types of priors that can be incorporated into the model; a growing mask generated from a given segmentation and a field that guides the deformation in a desired direction. We demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets, comparing with state-of-the- art methods. Finally, we developed a tumour segmentation tool using Topological Data Analysis (TDA) to detect characteristic components within the FLAIR and T1ce modalities.</p>
           </div>
           <a href="https://www.theses.fr/s228301">follow this link for more information</a>
     - title: Master 2 - Mathematic, Modelisation and learning
@@ -46,8 +46,8 @@
 - title: Internships & Work Experience
   type: time_table
   contents:
-    - title: Internship in shape analysis at MAP5 Laboratory - <em>Paris</em>
-      institution: Institute for Advanced Study, Princeton University
+    - title: Internship in shape analysis at MAP5 Laboratory
+      institution: <a href = https://map5.mi.parisdescartes.fr/> MAP5 laboratory - Université Paris-Cité </a>
       year: 1933 - 1955
       description:
         - Description 1.
