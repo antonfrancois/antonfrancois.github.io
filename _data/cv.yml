@@ -1,3 +1,8 @@
+css_ids:
+    - file: css/my-styles.css
+        ids:
+        - button-seemore
+
 - title: General Information
   type: map
   contents:
@@ -20,6 +25,8 @@
             - <a href= "https://helios2.mi.parisdescartes.fr/~glaunes/"> Joan A. Glaunès. </a>
             - <a href = "https://perso.telecom-paristech.fr/pgori/">Pietro Gori.</a>
         - <b>Diffeomorphic image registration taking topological differences into account.</b> Metamorphosis on brain MRI containing Glioblastomas
+        - <b>Abstract</b>|
+          <div>
         - <b>Abstract</b>|
           <div>
             <p>This thesis addresses the problem of registering images with different topologies with diffeomorphic deformation. We focus on the case of medical images of glioblastomas, a type of brain tumour. Firstly, we implemented...</p>
