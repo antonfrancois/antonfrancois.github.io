@@ -1,3 +1,8 @@
+css_ids:
+    - file: css/my-styles.css
+        ids:
+        - button-seemore
+
 - title: General Information
   type: map
   contents:
