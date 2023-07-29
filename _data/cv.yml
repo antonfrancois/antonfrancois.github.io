@@ -1,7 +1,3 @@
-css_ids:
-    - file: css/my-styles.css
-        ids:
-        - button-seemore
 
 - title: General Information
   type: map
@@ -25,16 +21,14 @@ css_ids:
             - <a href= "https://helios2.mi.parisdescartes.fr/~glaunes/"> Joan A. Glaunès. </a>
             - <a href = "https://perso.telecom-paristech.fr/pgori/">Pietro Gori.</a>
         - <b>Diffeomorphic image registration taking topological differences into account.</b> Metamorphosis on brain MRI containing Glioblastomas
-        - <b>Abstract</b>|
-          <div>
-        - <b>Abstract</b>|
-          <div>
-            <p>This thesis addresses the problem of registering images with different topologies with diffeomorphic deformation. We focus on the case of medical images of glioblastomas, a type of brain tumour. Firstly, we implemented...</p>
-            <button data-toggle="collapse" data-target="#collapse-id" style="font-size: 12px;outline: none; background: transparent;border: none;font-size: 1rem;text-transform: lowercase;color: blue;" onclick="this.textContent = 'See less';">See more</button>
-          </div>
-          <div id="collapse-id" class="collapse">
-            <p> both Metamorphosis and LDDMM for images in 2D and 3D. Our implementation is object-oriented and developed using PyTorch, allowing for versatility in usage and easy modifications. We also used a semi-Lagrangian scheme on both images and residual.The implementation is GPU-accelerated, and we demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets. Secondly, we address the difficulties associated with the Metamorphosis algorithm by proposing a framework for incorporating prior knowledge into the model, called Constrained Metamorphosis. The framework allows for adding constraints on the registration problem by also matching given priors. We present two specific types of priors that can be incorporated into the model; a growing mask generated from a given segmentation and a field that guides the deformation in a desired direction. We demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets, comparing with state-of-the- art methods. Finally, we developed a tumour segmentation tool using Topological Data Analysis (TDA) to detect characteristic components within the FLAIR and T1ce modalities.</p>
-          </div>
+        # - <b>Abstract</b>|
+        #   <div>
+        #     <p>This thesis addresses the problem of registering images with different topologies with diffeomorphic deformation. We focus on the case of medical images of glioblastomas, a type of brain tumour. Firstly, we implemented...</p>
+        #     <button data-toggle="collapse" data-target="#collapse-id" style="font-size: 12px;outline: none; background: transparent;border: none;font-size: 1rem;text-transform: lowercase;color: blue;" onclick="this.textContent = 'See less';">See more</button>
+        #   </div>
+        #   <div id="collapse-id" class="collapse">
+        #     <p> both Metamorphosis and LDDMM for images in 2D and 3D. Our implementation is object-oriented and developed using PyTorch, allowing for versatility in usage and easy modifications. We also used a semi-Lagrangian scheme on both images and residual.The implementation is GPU-accelerated, and we demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets. Secondly, we address the difficulties associated with the Metamorphosis algorithm by proposing a framework for incorporating prior knowledge into the model, called Constrained Metamorphosis. The framework allows for adding constraints on the registration problem by also matching given priors. We present two specific types of priors that can be incorporated into the model; a growing mask generated from a given segmentation and a field that guides the deformation in a desired direction. We demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets, comparing with state-of-the- art methods. Finally, we developed a tumour segmentation tool using Topological Data Analysis (TDA) to detect characteristic components within the FLAIR and T1ce modalities.</p>
+        #   </div>
           <a href="https://www.theses.fr/s228301">follow this link for more information</a>
     - title: Master 2 - Mathematic, Modelisation and learning
       institution: Université Paris Descartes
@@ -55,33 +49,63 @@ css_ids:
   contents:
     - title: Internship in shape analysis at MAP5 Laboratory
       institution: <a href = https://map5.mi.parisdescartes.fr/> MAP5 laboratory - Université Paris-Cité </a>
-      year: 1933 - 1955
+      year: Feb-July 2019
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - <b>Subject</b> Junction automatic detection in point clouds
+        - Under the suppervision of <a href = "https:helios2.mi.parisdescartes.fr//">Julie Delon</a>, <a href= "https://helios2.mi.parisdescartes.fr/~glaunes/"> Joan A. Glaunès. </a> and <a href = "https:helios2.mi.parisdescartes.fr//">Remy Abergel</a>
+    
+    - title: Year off, Hitchhiking trip in Asia
+      # institution: California Institute of Technology, Pasadena, California, US
+      year: 2017 - 2018
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Travelled through Nepal, India, Malesia, Thailand, Laos, Vietnam.
+        - I did many jobs as street musician, bartender, sound ingenior for a documentary,...
+    
+    - title: Internship Natural image synthesis
+      institution: <a href = https://map5.mi.parisdescartes.fr/> MAP5 laboratory - Université Paris Descartes </a>
+      year: Sept.-Nov. 2017
       description:
+        - <b>Subject</b> Texture and image synthesis using the HDMI method
+        - Under the suppervision of Antoine Houdard
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Internship with the In Vitro Artificial Intelligence (IVAI) club
+      institution: Center of Interdisciplinary Research (CRI)
+      year: July 2015
+      description:
+        - <b>Subject</b> Method evaluation and development for neuronal culture in multi electrode array analysis
+        - Under the suppervision of Jeremie Sibille
+
+    - title: Theaching math for highschoolers
+      # institution: University of Zurich, Zurich, Switzerland
+      year: 2014 - 2017
+
+    - title: Animating Escapes Games Jams
+      year: 2014 - 2017 
+      description: With some friends we founded the Enigma club and started by creating Escapes Games over a week-end. Then we were organising and selling workshops making participants creating, playtesting and managing their own escapes games. 
+
+    - title: Internship in Soil Ecology 
+      institution: Rilling lab, Freie Universität, Berlin
+      year: June-August 2014
+      description:
+        - <b>Subject</b> Biomass and conidia production modelling from colony size in Penicillium.
+        - Under the suppervision of Stavros Veresoglou.
+
+    - title: Internship in ETIS in Neurocybernetic team 
+      institution: Cergy University
+      year: June-July 2013
+      description:
+        - <b>Subject</b> Building a tansegrity spine with memory forms actuators, to reflect on Embodiment.
+        - Under the suppervision of Alexandre Pitti.
+
+    - title: Internship with the team « cortical Architecture, coding and Plasticity »,
+      institution: INSERM- u846, Bron
+      year: April 2013
+    
+    - title: Internship in the departement of Neurology, Emotion neurobiology 
+      institution: Nencki Institute, Warsaw
+      year: December 2012
+      description: Under the suppervision of Ewelina Knapska.
+    
 
 - title: Open Source Projects
   type: time_table
@@ -90,30 +114,26 @@ css_ids:
       year: 2015-now
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Applied math
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - title: My thesis was at the intesection of four disciplines
+          items:
+            - <b>Shape Analysis</b> which aims at comparing living objects, such as organs, by the amount of deformation needed to match their forms.
+            - <b>Fluid Dynamics.</b> I needed to integrate over a system of partial differential equations similar to the Navier-Stocks one. I developed numerical schemes for my specific task.
+            - <b>Computationnal image Analysis.</b> As I was processing MRI. One can note that it was the focus of my Master degree.
+            - <b>Medicine.</b> I needed to acquire knowledge about Glioblastomas and their development. 
+    - title: Ecology
       items:
-        - Description 1.
+        - I feel concerned by the climate change ...
         - Description 2.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Dancing:</u> Traditionnal French danses, Swing, Forro
+    - <u>Music:</u> I play the guitar (since 2017) and the oud (since 2023) 
+    - <u>Drawing and Painting:</u> (pen, pencils, watercolors, ink ...) and making posters for events.
+    - <u>Sports:</u> I love trekking in autonomy, running, sailing, biking and rollerblades. 
