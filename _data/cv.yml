@@ -32,7 +32,7 @@
       institution: Université Paris Descartes
       year: 2014 - 2016
     - title: Bachelor - Frontiers in Life Science
-      institution: Paris Interdisciplinary Research Center (CRI)
+      institution: <a href = "https://www.learningplanetinstitute.org/"> Paris Interdisciplinary Research Center (CRI)</a>
       year: 2012 - 2015
       
 
@@ -61,7 +61,7 @@
         - Under the suppervision of <a href = https://houdard.wp.imt.fr/> Antoine Houdard </a>
 
     - title: Internship with the In Vitro Artificial Intelligence (IVAI) club
-      institution: Center of Interdisciplinary Research (CRI)
+      institution: <a href = "https://www.learningplanetinstitute.org/"> Paris Interdisciplinary Research Center (CRI)</a>
       year: July 2015
       description:
         - <b>Subject:</b> Method evaluation and development for neuronal culture in multi electrode array analysis
@@ -76,7 +76,7 @@
       description: With some friends we founded the Enigma club and started by creating Escapes Games over a week-end. Then we were organising and selling workshops making participants creating, playtesting and managing their own escapes games. 
 
     - title: Internship in Soil Ecology 
-      institution: Rilling lab, Freie Universität, Berlin
+      institution: <a href="https://rilliglab.org/">Rilling lab, Freie Universität, Berlin</a>
       year: June-August 2014
       description:
         - <b>Subject:</b> Biomass and conidia production modelling from colony size in Penicillium.
@@ -96,7 +96,7 @@
     - title: Internship in the departement of Neurology, Emotion neurobiology 
       institution: <a href="https://nencki.edu.pl/laboratories/laboratory-of-emotions-neurobiology/> Nencki Institute, Warsaw</a>
       year: December 2012
-      description: Under the suppervision of Ewelina Knapska.
+      description: Under the suppervision of <a href = "https://nencki.edu.pl/people/knapska-ewelina/?doing_wp_cron=1690711749.9518039226531982421875">Ewelina Knapska</a>.
     
 
 - title: Open Source Projects
