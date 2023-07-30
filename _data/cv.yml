@@ -105,7 +105,7 @@
     - title: <a href="https://github.com/antonfrancois/Demeter_metamorphosis">Demeter Metamorphosis</a>
       year: 2019-2023
       description: The first public implementation of Metamorphosis. Thought for 2D and 3D images, implemented in python using Pytorch for GPU usage.
-    -title: <a href="https://github.com/antonfrancois/gliomaSegmentation_TDA">gliomaSegmentation_TDA</a>
+    - title: <a href="https://github.com/antonfrancois/gliomaSegmentation_TDA">gliomaSegmentation_TDA</a>
       year: 2022-2023
       description: A simple, statistical free method for glioblastomas segmentation using TDA.
 
