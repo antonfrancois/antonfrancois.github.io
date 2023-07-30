@@ -21,14 +21,6 @@
             - <a href= "https://helios2.mi.parisdescartes.fr/~glaunes/"> Joan A. Glaunès. </a>
             - <a href = "https://perso.telecom-paristech.fr/pgori/">Pietro Gori.</a>
         - <b>Diffeomorphic image registration taking topological differences into account.</b> Metamorphosis on brain MRI containing Glioblastomas
-        # - <b>Abstract</b>|
-        #   <div>
-        #     <p>This thesis addresses the problem of registering images with different topologies with diffeomorphic deformation. We focus on the case of medical images of glioblastomas, a type of brain tumour. Firstly, we implemented...</p>
-        #     <button data-toggle="collapse" data-target="#collapse-id" style="font-size: 12px;outline: none; background: transparent;border: none;font-size: 1rem;text-transform: lowercase;color: blue;" onclick="this.textContent = 'See less';">See more</button>
-        #   </div>
-        #   <div id="collapse-id" class="collapse">
-        #     <p> both Metamorphosis and LDDMM for images in 2D and 3D. Our implementation is object-oriented and developed using PyTorch, allowing for versatility in usage and easy modifications. We also used a semi-Lagrangian scheme on both images and residual.The implementation is GPU-accelerated, and we demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets. Secondly, we address the difficulties associated with the Metamorphosis algorithm by proposing a framework for incorporating prior knowledge into the model, called Constrained Metamorphosis. The framework allows for adding constraints on the registration problem by also matching given priors. We present two specific types of priors that can be incorporated into the model; a growing mask generated from a given segmentation and a field that guides the deformation in a desired direction. We demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets, comparing with state-of-the- art methods. Finally, we developed a tumour segmentation tool using Topological Data Analysis (TDA) to detect characteristic components within the FLAIR and T1ce modalities.</p>
-        #   </div>
         -  <a href="https://www.theses.fr/s228301">follow this link for more information</a>
     - title: Master 2 - Mathematic, Modelisation and learning
       institution: Université Paris Descartes
@@ -47,7 +39,7 @@
 - title: Internships & Work Experience
   type: time_table
   contents:
-    - title: Internship in shape analysis at MAP5 Laboratory
+    - title: Internship in shape analysis
       institution: <a href = https://map5.mi.parisdescartes.fr/> MAP5 laboratory - Université Paris-Cité </a>
       year: Feb-July 2019
       description:
@@ -90,19 +82,19 @@
         - <b>Subject:</b> Biomass and conidia production modelling from colony size in Penicillium.
         - Under the suppervision of <a href = https://scholar.google.com/citations?user=sMgyz6IAAAAJ&hl=en> Stavros Veresoglou</a>.
 
-    - title: Internship in ETIS in Neurocybernetic team 
-      institution: Cergy University
+    - title: Internship in robotic and embeded intelligence. 
+      institution: <a href = "https://www.cyu.fr/en/research-development/laboratories/etis-systems-and-information-processing-teams">ETIS in Neurocybernetic team, Cergy University </a>
       year: June-July 2013
       description:
         - <b>Subject:</b> Building a tansegrity spine with memory forms actuators, to reflect on Embodiment.
         - Under the suppervision of Alexandre Pitti.
 
     - title: Internship with the team « cortical Architecture, coding and Plasticity »,
-      institution: INSERM- u846, Bron
+      institution: <a href = "https://sbri.fr/">Stem cell and Brain Research Institute (SBRI) , Bron</a>
       year: April 2013
     
     - title: Internship in the departement of Neurology, Emotion neurobiology 
-      institution: Nencki Institute, Warsaw
+      institution: <a href="https://nencki.edu.pl/laboratories/laboratory-of-emotions-neurobiology/> Nencki Institute, Warsaw</a>
       year: December 2012
       description: Under the suppervision of Ewelina Knapska.
     
@@ -110,25 +102,27 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/antonfrancois/Demeter_metamorphosis">Demeter Metamorphosis</a>
+      year: 2019-2023
+      description: The first public implementation of Metamorphosis. Thought for 2D and 3D images, implemented in python using Pytorch for GPU usage.
+    -title: <a href="https://github.com/antonfrancois/gliomaSegmentation_TDA">gliomaSegmentation_TDA</a>
+      year: 2022-2023
+      description: A simple, statistical free method for glioblastomas segmentation using TDA.
 
 - title: Academic Interests
-  type: nested_list
+  type: list
   contents:
-    - title: Applied math
-      items: 
-        - title: My thesis was at the intesection of four disciplines
-          items:
-            - <b>Shape Analysis</b> which aims at comparing living objects, such as organs, by the amount of deformation needed to match their forms.
-            - <b>Fluid Dynamics.</b> I needed to integrate over a system of partial differential equations similar to the Navier-Stocks one. I developed numerical schemes for my specific task.
-            - <b>Computationnal image Analysis.</b> As I was processing MRI. One can note that it was the focus of my Master degree.
-            - <b>Medicine.</b> I needed to acquire knowledge about Glioblastomas and their development. 
-    - title: Ecology
-      items:
-        - I feel concerned by the climate change ...
-        - Description 2.
+    # - title: Applied math
+    #   items: 
+    #         - <b>Shape Analysis</b> which aims at comparing living objects, such as organs, by the amount of deformation needed to match their forms.
+    #         - <b>Fluid Dynamics.</b> I needed to integrate over a system of partial differential equations similar to the Navier-Stocks one. I developed numerical schemes for my specific task.
+    #         - <b>Computationnal image Analysis.</b> As I was processing MRI. One can note that it was the focus of my Master degree.
+    #         - <b>Medicine.</b> I needed to acquire knowledge about Glioblastomas and their development. 
+    - <h4>Shape Analysis</h4> which aims at comparing living objects, such as organs, by the amount of deformation needed to match their forms.
+    - <h4>Fluid Dynamics.</h4> I needed to integrate over a system of partial differential equations similar to the Navier-Stocks one. I developed numerical schemes for my specific task.
+    - <h4>Computationnal image Analysis.</h4> As I was processing MRI. One can note that it was the focus of my Master degree.
+    - <h4>Medicine.</h4> At the center of my thesis application,  to acquire knowledge about Glioblastomas and their development. 
+    - <h4>Ecology</h4> I have always been facinated by complex systems in interactions. Modelisation of such systems, and their sometimes chaotics behaviours, was one the first reason that led me to study mathematics.
 
 - title: Other Interests
   type: list
