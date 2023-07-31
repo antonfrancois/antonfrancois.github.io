@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://antonfrancois.github.io/about/sitemap.xml
+Sitemap: https://antonfrancois.github.iohttps://antonfrancois.github.io/sitemap.xml
