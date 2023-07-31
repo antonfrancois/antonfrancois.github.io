@@ -5,7 +5,7 @@ permalink: /
 # subtitle:  in short
 
 profile:
-  align: left
+  align: right
   image: anton_pic.png
   image_circular: false # crops the image to make it circular
   address: >
@@ -15,6 +15,7 @@ news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+importance: 1
 ---
 
 My name is Anton François. I recenctly finished a PhD in Applied Mathematics in the [MAP5 laboratory](https://map5.mi.parisdescartes.fr) at Université Paris-Cité. My dissertation focused on diffeomorphic image registration, which allows for the comparison of healthy and glioblastoma-affected brain images. To do this, I used a method called Metamorphoses, which is inspired by LDDMM. [more about my Phd project here](https://antonfrancois.github.io/projects/1_project/)
