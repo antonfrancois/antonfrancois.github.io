@@ -19,8 +19,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My name is Anton François. I recenctly finished a PhD in Applied Mathematics in the [MAP5 laboratory](https://map5.mi.parisdescartes.fr) at Université Paris-Cité. My dissertation focused on diffeomorphic image registration, which allows for the comparison of healthy and glioblastoma-affected brain images. To do this, I used a method called Metamorphoses, which is inspired by LDDMM. [more about my Phd project here](https://antonfrancois.github.io/projects/1_project/)
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I hold a Master Degree "[Mathematic, Modelisation and learning](https://math-info.u-paris.fr/master-mathematiques-et-applications/specialite-mathematiques-modelisation-apprentissage/)" with a major in image automatic processing. Before that, I also obtained an interdisciplinary degree at [CRI](https://www.learningplanetinstitute.org) focused on biology. I am passionate about the open source software mentality and knowledge sharing. I believe that a healthy and collaborative work environment is essential for success. I am a good programmer and I can lead research projects. I am also a good communicator and I am able to work effectively in teams.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My researsh interest 
+...
