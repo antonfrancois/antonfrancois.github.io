@@ -6,8 +6,8 @@ permalink: /
 
 profile:
   align: left
-  image: anton_pic.jpeg
-  image_circular: true # crops the image to make it circular
+  image: anton_pic.png
+  image_circular: false # crops the image to make it circular
   address: >
   <i class="fa fa-envelope">::before</i><p>anton *dot* francois134 'at' gmail *dot* com </p>
 
