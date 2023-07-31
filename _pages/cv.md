@@ -5,6 +5,6 @@ title: cv
 nav: true
 nav_order: 4
 cv_pdf: Cv_Anton_Francois(fr).pdf
-description: <p> style="text-align:center"><em>Vous pouvez trouver un CV en Français en cliquant sur l'icône 'pdf' à droite.</em></p>
+description: <em>Vous pouvez trouver un CV en Français en cliquant sur l'icône 'pdf' à droite.</em>
 ---
 
