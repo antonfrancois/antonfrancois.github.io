@@ -9,7 +9,7 @@ profile:
   image: anton_pic.png
   image_circular: false # crops the image to make it circular
   address: >
-  <i class="fa fa-envelope">::before</i><p>anton *dot* francois134 'at' gmail *dot* com </p>
+  🖂 <p>anton *dot* francois134 'at' gmail *dot* com </p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
