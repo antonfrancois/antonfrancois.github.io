@@ -1,15 +1,19 @@
 ---
 layout: page
 title: Registering Glioblastoma
-description: a project with a background image
-img: assets/img/12.jpg
+description: a short summary of my PhD project.
+img: assets/img/vol_rend_reg.gif
 importance: 1
 category: work
 ---
 
 One can find the full document here : <a href="https://www.theses.fr/s228301">theses.fr</a>
 
-# My Thesis's Abstract
+In this page I start by giving the actual abstract of my thesis. Then I will do a short and simplified explaination of the differents contribution of my PhD. 
+
+Note : Si vous voulez lire en Français, des versions du résumé et du chapitre 1 traduites sont disponibles dans le manuscrit de thèse. Le chapitre 1 couvre les notions de bases nécessaires à comprendre mon projet de thèse sans rentrer trop dans les détails techniques.
+
+## My Thesis's Abstract
 This thesis addresses the problem of registering images with different topologies with diffeomorphic deformation. We focus on the case of medical images of glioblastomas, a type of brain tumour.
 
  Firstly, we implemented both Metamorphosis and LDDMM for images in 2D and 3D. Our implementation is object-oriented and developed using PyTorch, allowing for versatility in usage and easy modifications. We also used a semi-Lagrangian scheme on both images and residual.The implementation is GPU-accelerated, and we demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets.
@@ -17,6 +21,41 @@ This thesis addresses the problem of registering images with different topologie
  Secondly, we address the difficulties associated with the Metamorphosis algorithm by proposing a framework for incorporating prior knowledge into the model, called Constrained Metamorphosis. The framework allows for adding constraints on the registration problem by also matching given priors. We present two specific types of priors that can be incorporated into the model; a growing mask generated from a given segmentation and a field that guides the deformation in a desired direction. We demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets, comparing with state-of-the- art methods.
  
  Finally, we developed a tumour segmentation tool using Topological Data Analysis (TDA) to detect characteristic components within the FLAIR and T1ce modalities.
+
+## Comic books 
+
+In addition to the traditional academic writing, my PhD thesis also includes two comics that explain some of the key concepts in my research in a way that is accessible to non-scholars. The comics are designed to be engaging and informative, and they use humor and imagery to help explain complex ideas.
+
+The beautiful artworks were made by Salomé Govignon, and she and I are the main characters of the comics. In the comics, she plays the role of the candid student and I guide her through different concepts.
+
+The first comic explains the concept of "diffeomorphic shape spaces," which is a key concept in my research. I decided to explain it from the image perspective, as this is the type of data I use. The second comic explains the concept of "semi-Lagrangian schemes," which is one important concept for implementing image transport.
+
+I believe that the comics in my thesis will help to make my research more accessible to a wider audience. They are a fun and engaging way to learn about some of the key concepts in my research, and they can help to demystify some of the more complex ideas.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/bd_0.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/bd_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/bd_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Two versions available to Dowload:
+    <ul>
+        <li><a href="https://helios2.mi.parisdescartes.fr/~afrancoi/AntonFRANCOIS_files/BD_env2.pdf">Comic in english</a></li>
+        <li><a href="https://helios2.mi.parisdescartes.fr/~afrancoi/AntonFRANCOIS_files/BD_frv2.pdf">BD en français</a></li>
+    </ul>
+</div>
+
+
+# How to implement Metamorphoses.
+
+## Basic explainatioon of 
+
 
 
 - Faire une visualisation de mes BDs
