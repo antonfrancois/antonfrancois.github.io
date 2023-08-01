@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: anton_pic.png
+  image: #anton_pic.png
   image_circular: false # crops the image to make it circular
   address: >
   🖂 <p>anton *dot* francois134 'at' gmail *dot* com </p>
