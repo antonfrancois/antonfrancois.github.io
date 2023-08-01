@@ -4,7 +4,7 @@ title: Registering Glioblastoma
 description: a short summary of my PhD project.
 img: assets/img/vol_rend_reg.gif
 importance: 1
-category: work
+category: academic
 ---
 
 One can find the full document here : <a href="https://www.theses.fr/s228301">theses.fr</a> or directly here : <a href = "https://helios2.mi.parisdescartes.fr/~afrancoi/AntonFRANCOIS_files/Manuscrit_Anton.pdf">PhD Dissertation</a>
@@ -73,7 +73,14 @@ where $(v_t)_{t\in [0,1]}$ is a temporal vector field belonging to an admissible
 $$J = I \circ \varphi^{-1}.$$
 LDDMM is a widely studied method and the state of the art for precise registrations. However, because of the Diffeomorphic assumption, it can be used only to match images of the same topology. For example, two images of 'healthy' faces have the same topology, because both have two eyes, one mouth, etc.. However, a cyclops, having one eye only have a different topology. 
 
-![faces to demonstrate topology differences](assets/img/phd/faces.svg)
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/phd/faces.svg" title="faces to demonstrate topology differences" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    faces to demonstrate topology differences
+</div>
 
 Metamorphosis is a method that register two images with a diffeomorphism but also allows to add intensity differences to given pixels. In fact, one can write the image evolution like so:
 $$\dot I_t = I_t\circ \varphi_t + z_t$$
