@@ -7,20 +7,23 @@ importance: 1
 category: work
 ---
 
-One can find the full document here : <a href="https://www.theses.fr/s228301">theses.fr</a>
+One can find the full document here : <a href="https://www.theses.fr/s228301">theses.fr</a> or directly here : <a href = "https://helios2.mi.parisdescartes.fr/~afrancoi/AntonFRANCOIS_files/Manuscrit_Anton.pdf">Phd Dissertation</a>
 
-In this page I start by giving the actual abstract of my thesis. Then I will do a short and simplified explaination of the differents contribution of my PhD. 
+In this page I start by giving the actual abstract of my thesis. Then I will do a short and simplified explanation of the different contribution of my PhD. 
 
 Note : Si vous voulez lire en Français, des versions du résumé et du chapitre 1 traduites sont disponibles dans le manuscrit de thèse. Le chapitre 1 couvre les notions de bases nécessaires à comprendre mon projet de thèse sans rentrer trop dans les détails techniques.
 
 ## My Thesis's Abstract
-This thesis addresses the problem of registering images with different topologies with diffeomorphic deformation. We focus on the case of medical images of glioblastomas, a type of brain tumour.
 
- Firstly, we implemented both Metamorphosis and LDDMM for images in 2D and 3D. Our implementation is object-oriented and developed using PyTorch, allowing for versatility in usage and easy modifications. We also used a semi-Lagrangian scheme on both images and residual.The implementation is GPU-accelerated, and we demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets.
- 
- Secondly, we address the difficulties associated with the Metamorphosis algorithm by proposing a framework for incorporating prior knowledge into the model, called Constrained Metamorphosis. The framework allows for adding constraints on the registration problem by also matching given priors. We present two specific types of priors that can be incorporated into the model; a growing mask generated from a given segmentation and a field that guides the deformation in a desired direction. We demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets, comparing with state-of-the- art methods.
- 
- Finally, we developed a tumour segmentation tool using Topological Data Analysis (TDA) to detect characteristic components within the FLAIR and T1ce modalities.
+<div style="text-align: justify">
+    This thesis addresses the problem of registering images with different topologies with diffeomorphic deformation. We focus on the case of medical images of glioblastomas, a type of brain tumour.
+
+    Firstly, we implemented both Metamorphosis and LDDMM for images in 2D and 3D. Our implementation is object-oriented and developed using PyTorch, allowing for versatility in usage and easy modifications. We also used a semi-Lagrangian scheme on both images and residual.The implementation is GPU-accelerated, and we demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets.
+    
+    Secondly, we address the difficulties associated with the Metamorphosis algorithm by proposing a framework for incorporating prior knowledge into the model, called Constrained Metamorphosis. The framework allows for adding constraints on the registration problem by also matching given priors. We present two specific types of priors that can be incorporated into the model; a growing mask generated from a given segmentation and a field that guides the deformation in a desired direction. We demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets, comparing with state-of-the- art methods.
+    
+    Finally, we developed a tumour segmentation tool using Topological Data Analysis (TDA) to detect characteristic components within the FLAIR and T1ce modalities.
+</div>
 
 ## Comic books 
 
@@ -34,20 +37,20 @@ I believe that the comics in my thesis will help to make my research more access
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/bd_0.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/bd_0.png" title="comic preview" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/bd_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/bd_1.png" title="comic preview" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <!-- <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/bd_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+    </div> -->
 </div>
 <div class="caption">
-    Two versions available to Dowload:
-    <ul>
-        <li><a href="https://helios2.mi.parisdescartes.fr/~afrancoi/AntonFRANCOIS_files/BD_env2.pdf">Comic in english</a></li>
-        <li><a href="https://helios2.mi.parisdescartes.fr/~afrancoi/AntonFRANCOIS_files/BD_frv2.pdf">BD en français</a></li>
+    Two versions available to Download:
+    <ul style="list-style-type: none;">
+        <li><a href="https://helios2.mi.parisdescartes.fr/~afrancoi/AntonFRANCOIS_files/BD_env2.pdf">-- Comic in english --</a></li>
+        <li><a href="https://helios2.mi.parisdescartes.fr/~afrancoi/AntonFRANCOIS_files/BD_frv2.pdf">-- BD en français --</a></li>
     </ul>
 </div>
 
