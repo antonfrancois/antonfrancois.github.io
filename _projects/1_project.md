@@ -7,7 +7,7 @@ importance: 1
 category: work
 ---
 
-One can find the full document here : <a href="https://www.theses.fr/s228301">theses.fr</a> or directly here : <a href = "https://helios2.mi.parisdescartes.fr/~afrancoi/AntonFRANCOIS_files/Manuscrit_Anton.pdf">Phd Dissertation</a>
+One can find the full document here : <a href="https://www.theses.fr/s228301">theses.fr</a> or directly here : <a href = "https://helios2.mi.parisdescartes.fr/~afrancoi/AntonFRANCOIS_files/Manuscrit_Anton.pdf">PhD Dissertation</a>
 
 In this page I start by giving the actual abstract of my thesis. Then I will do a short and simplified explanation of the different contribution of my PhD. 
 
