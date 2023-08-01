@@ -28,6 +28,8 @@ Note : Si vous voulez lire en Français, des versions du résumé et du chapitre
     Finally, we developed a tumour segmentation tool using Topological Data Analysis (TDA) to detect characteristic components within the FLAIR and T1ce modalities.
 </div>
 
+
+
 ## Comic books 
 <div style="text-align: justify">   
 In addition to the traditional academic writing, my PhD thesis also includes two comics that explain some of the key concepts in my research in a way that is accessible to non-scholars. The comics are designed to be engaging and informative, and they use humor and imagery to help explain complex ideas.
@@ -75,7 +77,7 @@ LDDMM is a widely studied method and the state of the art for precise registrati
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/phd/faces.svg" title="faces to demonstrate topology differences" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/phd/faces.png" title="faces to demonstrate topology differences" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
