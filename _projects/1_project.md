@@ -7,6 +7,13 @@ importance: 1
 category: academic
 ---
 
+<style>
+#my-iframe {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+
 One can find the full document here : <a href="https://www.theses.fr/s228301">theses.fr</a> or directly here : <a href = "https://helios2.mi.parisdescartes.fr/~afrancoi/AntonFRANCOIS_files/Manuscrit_Anton.pdf">PhD Dissertation</a>
 
 In this page I start by giving the actual abstract of my thesis. Then I will do a short and simplified explanation of the different contribution of my PhD. 
@@ -75,7 +82,7 @@ where $(v_t)_{t\in [0,1]}$ is a temporal vector field belonging to an admissible
 $$J = I \circ \varphi^{-1}.$$
 LDDMM is a widely studied method and the state of the art for precise registrations. However, because of the Diffeomorphic assumption, it can be used only to match images of the same topology. For example, two images of 'healthy' faces have the same topology, because both have two eyes, one mouth, etc.. However, a cyclops, having one eye only have a different topology. 
 
-<div class="row">
+<div class="row" id="my-iframe">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/phd/faces.png" title="faces to demonstrate topology differences" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -92,12 +99,13 @@ Here, $z_t$ is something similar to an image, the only difference being that it 
 
 I will not get into the details here, and please follow the Chapter 2 of my thesis if you want to have a complete explanation with references. The theory translate the registration problem as finding a path in an abstract space and is looking for the shortest path among all that perform the perfect match. We know that the shortest path is among the geodesics, a generalization of the straight line. Theorems gives us the formulation for those geodesics in the form of a PDE system that indicate how to transport our images. However, in practice it is hard to find a path that perform a matching. It is why algorithmically we take our image $I_0$ a direction at random (i.e.: $v_0$), follow the PDE system and take the transported image $I_1$. At this stage, we are able to compare $I_1$ and the target image. Then we modify the initial direction until we get our transported image close enough to the target one. This processed is called _geodesic shooting_ and it is summarized in the slide bellow.
 
-<iframe src="https://slides.com/antonfrancois/deck-d1ea90/embed" width="576" height="420" title="Anton François - PhD Defense" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-- trouver des images, figures sexy (ex: gif dynamiques des fluides.)
-- mettre la vidéo de ma soutenance de thèse.
+<iframe src="https://slides.com/antonfrancois/deck-d1ea90/embed#/3/3" width="576" height="420" title="Anton François - PhD Defense" id="my-iframe" class="my-class" data-slide="3" data-presentation="deck-d1ea90"></iframe>
+<div class="caption">
+    Slides from my PhD defense.
+</div>
 
-- faire un résumé des contributions, vulgarisés
+Parler des schémas semi-Lagrangiens
 _________________________________
 
 Every project has a beautiful feature showcase page.
