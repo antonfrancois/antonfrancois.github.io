@@ -76,11 +76,13 @@ I believe that the comics in my thesis will help to make my research more access
 # The first open-source implementation of Metamorphoses.
 
 ## Some theoritical background
+<div style="text-align: justify">   
 The Metamorphic framework lies on [Large Deformation Diffeomorphic Metric Mapping (LDDMM)](https://en.wikipedia.org/wiki/Large_deformation_diffeomorphic_metric_mapping). In short it is a registration technic that use flows of vectors fields to match two objects, in our cases images. The flow of vectors field is the solution of the ordinary differential equation:
 $$\dot \varphi_t = v_t \circ \varphi_t$$
 where $(v_t)_{t\in [0,1]}$ is a temporal vector field belonging to an admissible vector space $V$, $\varphi_t$ is the deformation solution of this equation and $\dot \varphi$ the derivation relative to time. Then the deformation $J$ of an image $I$ by the deformation $\varphi$ is given by the relation:
 $$J = I \circ \varphi^{-1}.$$
 LDDMM is a widely studied method and the state of the art for precise registrations. However, because of the Diffeomorphic assumption, it can be used only to match images of the same topology. For example, two images of 'healthy' faces have the same topology, because both have two eyes, one mouth, etc.. However, a cyclops, having one eye only have a different topology. 
+</div>
 
 <div class="row" id="my-iframe">
     <div class="col-sm mt-3 mt-md-0">
@@ -91,14 +93,17 @@ LDDMM is a widely studied method and the state of the art for precise registrati
     faces to demonstrate topology differences
 </div>
 
+<div style="text-align: justify">   
 Metamorphosis is a method that register two images with a diffeomorphism but also allows to add intensity differences to given pixels. In fact, one can write the image evolution like so:
 $$\dot I_t = I_t\circ \varphi_t + z_t$$
 Here, $z_t$ is something similar to an image, the only difference being that it can have negative values. Hence, in theory, any pair of image could be matched.
+</div>
 
 ## Some implementation details
 
+<div style="text-align: justify">   
 I will not get into the details here, and please follow the Chapter 2 of my thesis if you want to have a complete explanation with references. The theory translate the registration problem as finding a path in an abstract space and is looking for the shortest path among all that perform the perfect match. We know that the shortest path is among the geodesics, a generalization of the straight line. Theorems gives us the formulation for those geodesics in the form of a PDE system that indicate how to transport our images. However, in practice it is hard to find a path that perform a matching. It is why algorithmically we take our image $I_0$ a direction at random (i.e.: $v_0$), follow the PDE system and take the transported image $I_1$. At this stage, we are able to compare $I_1$ and the target image. Then we modify the initial direction until we get our transported image close enough to the target one. This processed is called _geodesic shooting_ and it is summarized in the slide bellow.
-
+</div>
 
 <iframe src="https://slides.com/antonfrancois/deck-d1ea90/embed#/3/3" width="576" height="420" title="Anton François - PhD Defense" id="my-iframe" class="my-class" data-slide="3" data-presentation="deck-d1ea90"></iframe>
 <div class="caption">
