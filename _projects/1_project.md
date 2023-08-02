@@ -88,11 +88,11 @@ Metamorphosis is a method that register two images with a diffeomorphism but als
 $$\dot I_t = I_t\circ \varphi_t + z_t$$
 Here, $z_t$ is something similar to an image, the only difference being that it can have negative values. Hence, in theory, any pair of image could be matched.
 
+## Some implementation details
 
-## My contribution within the implementation
+I will not get into the details here, and please follow the Chapter 2 of my thesis if you want to have a complete explanation with references. The theory translate the registration problem as finding a path in an abstract space and is looking for the shortest path among all that perform the perfect match. We know that the shortest path is among the geodesics, a generalization of the straight line. Theorems gives us the formulation for those geodesics in the form of a PDE system that indicate how to transport our images. However, in practice it is hard to find a path that perform a matching. It is why algorithmically we take our image $I_0$ a direction at random (i.e.: $v_0$), follow the PDE system and take the transported image $I_1$. At this stage, we are able to compare $I_1$ and the target image. Then we modify the initial direction until we get our transported image close enough to the target one. This processed is called _geodesic shooting_ and it is summarized in the slide bellow.
 
-I chose to use a geodesic shooting formulation for t 
-
+<iframe src="https://slides.com/antonfrancois/deck-d1ea90/embed" width="576" height="420" title="Anton François - PhD Defense" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 - trouver des images, figures sexy (ex: gif dynamiques des fluides.)
 - mettre la vidéo de ma soutenance de thèse.
