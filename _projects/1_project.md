@@ -14,6 +14,8 @@ category: academic
 }
 </style>
 
+<div class="justify">
+
 One can find the full document here : <a href="https://www.theses.fr/s228301">theses.fr</a> or directly here : <a href = "https://helios2.mi.parisdescartes.fr/~afrancoi/AntonFRANCOIS_files/Manuscrit_Anton.pdf">PhD Dissertation</a>
 
 In this page I start by giving the actual abstract of my thesis. Then I will do a short and simplified explanation of the different contribution of my PhD. 
@@ -22,34 +24,26 @@ Note : Si vous voulez lire en Français, des versions du résumé et du chapitre
 
 ## My Thesis's Abstract
 
-<div style="text-align: justify">
+
     This thesis addresses the problem of registering images with different topologies with diffeomorphic deformation. We focus on the case of medical images of glioblastomas, a type of brain tumour.
-</div>
-<div style="text-align: justify">
+
     Firstly, we implemented both Metamorphosis and LDDMM for images in 2D and 3D. Our implementation is object-oriented and developed using PyTorch, allowing for versatility in usage and easy modifications. We also used a semi-Lagrangian scheme on both images and residual.The implementation is GPU-accelerated, and we demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets.
-</div>
-<div style="text-align: justify">
+
     Secondly, we address the difficulties associated with the Metamorphosis algorithm by proposing a framework for incorporating prior knowledge into the model, called Constrained Metamorphosis. The framework allows for adding constraints on the registration problem by also matching given priors. We present two specific types of priors that can be incorporated into the model; a growing mask generated from a given segmentation and a field that guides the deformation in a desired direction. We demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets, comparing with state-of-the- art methods.
-</div>
-<div style="text-align: justify">   
+   
     Finally, we developed a tumour segmentation tool using Topological Data Analysis (TDA) to detect characteristic components within the FLAIR and T1ce modalities.
-</div>
 
 
 
 ## Comic books 
-<div style="text-align: justify">   
+   
 In addition to the traditional academic writing, my PhD thesis also includes two comics that explain some of the key concepts in my research in a way that is accessible to non-scholars. The comics are designed to be engaging and informative, and they use humor and imagery to help explain complex ideas.
-</div>
-<div style="text-align: justify">   
+   
 The beautiful artworks were made by Salomé Govignon, and she and I are the main characters of the comics. In the comics, she plays the role of the candid student and I guide her through different concepts.
-</div>
-<div style="text-align: justify">   
+   
 The first comic explains the concept of "diffeomorphic shape spaces," which is a key concept in my research. I decided to explain it from the image perspective, as this is the type of data I use. The second comic explains the concept of "semi-Lagrangian schemes," which is one important concept for implementing image transport.
-</div>
-<div style="text-align: justify">   
+   
 I believe that the comics in my thesis will help to make my research more accessible to a wider audience. They are a fun and engaging way to learn about some of the key concepts in my research, and they can help to demystify some of the more complex ideas.
-</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -76,13 +70,13 @@ I believe that the comics in my thesis will help to make my research more access
 # The first open-source implementation of Metamorphoses.
 
 ## Some theoritical background
-<div style="text-align: justify">   
+   
 The Metamorphic framework lies on [Large Deformation Diffeomorphic Metric Mapping (LDDMM)](https://en.wikipedia.org/wiki/Large_deformation_diffeomorphic_metric_mapping). In short it is a registration technic that use flows of vectors fields to match two objects, in our cases images. The flow of vectors field is the solution of the ordinary differential equation:
 $$\dot \varphi_t = v_t \circ \varphi_t$$
 where $(v_t)_{t\in [0,1]}$ is a temporal vector field belonging to an admissible vector space $V$, $\varphi_t$ is the deformation solution of this equation and $\dot \varphi$ the derivation relative to time. Then the deformation $J$ of an image $I$ by the deformation $\varphi$ is given by the relation:
 $$J = I \circ \varphi^{-1}.$$
 LDDMM is a widely studied method and the state of the art for precise registrations. However, because of the Diffeomorphic assumption, it can be used only to match images of the same topology. For example, two images of 'healthy' faces have the same topology, because both have two eyes, one mouth, etc.. However, a cyclops, having one eye only have a different topology. 
-</div>
+
 
 <div class="row" id="my-iframe">
     <div class="col-sm mt-3 mt-md-0">
@@ -93,25 +87,38 @@ LDDMM is a widely studied method and the state of the art for precise registrati
     faces to demonstrate topology differences
 </div>
 
-<div style="text-align: justify">   
+   
 Metamorphosis is a method that register two images with a diffeomorphism but also allows to add intensity differences to given pixels. In fact, one can write the image evolution like so:
 $$\dot I_t = I_t\circ \varphi_t + z_t$$
 Here, $z_t$ is something similar to an image, the only difference being that it can have negative values. Hence, in theory, any pair of image could be matched.
-</div>
+
 
 ## Some implementation details
 
-<div style="text-align: justify">   
+   
 I will not get into the details here, and please follow the Chapter 2 of my thesis if you want to have a complete explanation with references. The theory translate the registration problem as finding a path in an abstract space and is looking for the shortest path among all that perform the perfect match. We know that the shortest path is among the geodesics, a generalization of the straight line. Theorems gives us the formulation for those geodesics in the form of a PDE system that indicate how to transport our images. However, in practice it is hard to find a path that perform a matching. It is why algorithmically we take our image $I_0$ a direction at random (i.e.: $v_0$), follow the PDE system and take the transported image $I_1$. At this stage, we are able to compare $I_1$ and the target image. Then we modify the initial direction until we get our transported image close enough to the target one. This processed is called _geodesic shooting_ and it is summarized in the slide bellow.
-</div>
+
 
 <iframe src="https://slides.com/antonfrancois/deck-d1ea90/embed#/3/3" width="576" height="420" title="Anton François - PhD Defense" id="my-iframe" class="my-class" data-slide="3" data-presentation="deck-d1ea90"></iframe>
 <div class="caption">
     Slides from my PhD defense.
 </div>
 
-Parler des schémas semi-Lagrangiens
-_________________________________
+As mentioned in the previous paragraph, to obtain image $I_1$​, one needs to integrate a partial differential equation (PDE) system. I chose to use semi-Lagrangian schemes for this task. I will not go into the technical details here, as they are well-explained in Section 2.5 of my manuscript. However, you can think of semi-Lagrangian schemes as a compromise between Eulerian and Lagrangian schemes, two classical ways to integrate PDE systems. One novelty of my implementation is that I used semi-Lagrangian schemes in a way that significantly decreased the number of computations required, while still maintaining accuracy.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/phd/fluids.gif" title="comic preview" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/phd/semi-Lagrangian_scheme.png" title="comic preview" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Left: An image integration example that demonstrates how close our model behave to a non-difusive fluid. Right: Illustration of the semi-Lagrangian scheme.
+</div>
+
+<!-- _________________________________
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
@@ -183,4 +190,4 @@ Here's the code for the last row of images above:
     </div>
 </div>
 ```
-{% endraw %}
+{% endraw %} -->
