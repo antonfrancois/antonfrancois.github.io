@@ -25,33 +25,33 @@ Note : Si vous voulez lire en Français, des versions du résumé et du chapitre
 ## My Thesis's Abstract
 
 
-    This thesis addresses the problem of registering images with different topologies with diffeomorphic deformation. We focus on the case of medical images of glioblastomas, a type of brain tumour.
+This thesis addresses the problem of registering images with different topologies with diffeomorphic deformation. We focus on the case of medical images of glioblastomas, a type of brain tumour.
 
-    Firstly, we implemented both Metamorphosis and LDDMM for images in 2D and 3D. Our implementation is object-oriented and developed using PyTorch, allowing for versatility in usage and easy modifications. We also used a semi-Lagrangian scheme on both images and residual.The implementation is GPU-accelerated, and we demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets.
+Firstly, we implemented both Metamorphosis and LDDMM for images in 2D and 3D. Our implementation is object-oriented and developed using PyTorch, allowing for versatility in usage and easy modifications. We also used a semi-Lagrangian scheme on both images and residual.The implementation is GPU-accelerated, and we demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets.
 
-    Secondly, we address the difficulties associated with the Metamorphosis algorithm by proposing a framework for incorporating prior knowledge into the model, called Constrained Metamorphosis. The framework allows for adding constraints on the registration problem by also matching given priors. We present two specific types of priors that can be incorporated into the model; a growing mask generated from a given segmentation and a field that guides the deformation in a desired direction. We demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets, comparing with state-of-the- art methods.
-   
-    Finally, we developed a tumour segmentation tool using Topological Data Analysis (TDA) to detect characteristic components within the FLAIR and T1ce modalities.
+Secondly, we address the difficulties associated with the Metamorphosis algorithm by proposing a framework for incorporating prior knowledge into the model, called Constrained Metamorphosis. The framework allows for adding constraints on the registration problem by also matching given priors. We present two specific types of priors that can be incorporated into the model; a growing mask generated from a given segmentation and a field that guides the deformation in a desired direction. We demonstrate the effectiveness of our approach through experiments on glioblastomas using BraTS datasets, comparing with state-of-the- art methods.
+
+Finally, we developed a tumour segmentation tool using Topological Data Analysis (TDA) to detect characteristic components within the FLAIR and T1ce modalities.
 
 
 
 ## Comic books 
 
-<div class="justify">  
+<p style='text-align: right; '>
 In addition to the traditional academic writing, my PhD thesis also includes two comics that explain some of the key concepts in my research in a way that is accessible to non-scholars. The comics are designed to be engaging and informative, and they use humor and imagery to help explain complex ideas.
-</div>
+</p>
    
-<div class="justify">
+<p style='text-align: right; '>
 The beautiful artworks were made by Salomé Govignon, and she and I are the main characters of the comics. In the comics, she plays the role of the candid student and I guide her through different concepts.
-</div>
+</p>
    
-<div class="justify">   
+<p style='text-align: right; '>
 The first comic explains the concept of "diffeomorphic shape spaces," which is a key concept in my research. I decided to explain it from the image perspective, as this is the type of data I use. The second comic explains the concept of "semi-Lagrangian schemes," which is one important concept for implementing image transport.
-</div>
+</p>
    
-<div class="justify">
+<p style='text-align: right; '>
 I believe that the comics in my thesis will help to make my research more accessible to a wider audience. They are a fun and engaging way to learn about some of the key concepts in my research, and they can help to demystify some of the more complex ideas.
-</div>
+</p>
    
 
 <div class="row">
@@ -80,14 +80,13 @@ I believe that the comics in my thesis will help to make my research more access
 
 ## Some theoritical background
 
-<div class="justify">   
+<p style='text-align: right; '>
 The Metamorphic framework lies on [Large Deformation Diffeomorphic Metric Mapping (LDDMM)](https://en.wikipedia.org/wiki/Large_deformation_diffeomorphic_metric_mapping). In short it is a registration technic that use flows of vectors fields to match two objects, in our cases images. The flow of vectors field is the solution of the ordinary differential equation:
-</div>
-   
-<div class="justify">
-$$\dot \varphi_t = v_t \circ \varphi_t$$
+</p>
+$$\dot \varphi_t = v_t \circ \varphi_t$$   
+<p style='text-align: right; '>
 where $(v_t)_{t\in [0,1]}$ is a temporal vector field belonging to an admissible vector space $V$, $\varphi_t$ is the deformation solution of this equation and $\dot \varphi$ the derivation relative to time. Then the deformation $J$ of an image $I$ by the deformation $\varphi$ is given by the relation:
-</div>
+</p>
 $$J = I \circ \varphi^{-1}.$$
 LDDMM is a widely studied method and the state of the art for precise registrations. However, because of the Diffeomorphic assumption, it can be used only to match images of the same topology. For example, two images of 'healthy' faces have the same topology, because both have two eyes, one mouth, etc.. However, a cyclops, having one eye only have a different topology. 
 
