@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Registering Glioblastoma
+title: my PhD in short. 
 description: a short summary of my PhD project.
 img: assets/img/vol_rend_reg.gif
 importance: 1
