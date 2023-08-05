@@ -118,11 +118,11 @@
     #         - <b>Fluid Dynamics.</b> I needed to integrate over a system of partial differential equations similar to the Navier-Stocks one. I developed numerical schemes for my specific task.
     #         - <b>Computationnal image Analysis.</b> As I was processing MRI. One can note that it was the focus of my Master degree.
     #         - <b>Medicine.</b> I needed to acquire knowledge about Glioblastomas and their development. 
-    - <h4>Shape Analysis</h4> which aims at comparing living objects, such as organs, by the amount of deformation needed to match their forms.
-    - <h4>Fluid Dynamics.</h4> I needed to integrate over a system of partial differential equations similar to the Navier-Stocks one. I developed numerical schemes for my specific task.
-    - <h4>Computationnal image Analysis.</h4> As I was processing MRI. One can note that it was the focus of my Master degree.
-    - <h4>Medicine.</h4> At the center of my thesis application,  to acquire knowledge about Glioblastomas and their development. 
-    - <h4>Ecology</h4> I have always been facinated by complex systems in interactions. Modelisation of such systems, and their sometimes chaotics behaviours, was one the first reason that led me to study mathematics.
+    - <h4>Shape Spaces and Applications </h4> <b>Deformable Templates and Diffeomorphic mappings:</b> Correspond to a set methods using differential geometry for image analysis. They are a powerful tool that can be used to solve a wide range of problems in the field of image analysis. They are still an active area of research, but they have the potential to revolutionize the way we analyze and interpret images. They can be used for; Comparison of organ images before and after surgery to identify the changes that have taken place; Tracking the progression of a disease by comparing images taken at regular time intervals; Development of virtual atlases of the human body by aligning images of different people
+    - <h4>Glioblastoma atlas estimation </h4> The overall goal of my PhD was to propose a method to estimate a 3D atlas of glioblastoma using a population of MR brain images. The resulting atlas should describe the average shape of glioblastoma and its variability, which will depend on its anatomical location, as well as the main variations of the surrounding tissues (mass effect).    
+    - <h4>Numerical methods for temporal images integration</h4> Within the Metamorphic framework, a set of PDEs governing image transport arises, similar to a particular case of the Navier-Stokes equations. Numerical schemes tailored to my specific task were developed to integrate it, allowing computation time to be reduced while accuracy was maintained.
+    - <h4>Computationnal image Analysis.</h4> 
+    - <h4>Ecology</h4> I have always been facinated by complex systems in interactions. Modelisation of such systems, and their sometimes chaotic behaviors, was one the first reason that led me to study mathematics.
 
 - title: Other Interests
   type: list
