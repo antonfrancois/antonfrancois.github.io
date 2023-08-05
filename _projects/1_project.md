@@ -1,7 +1,7 @@
 ---
 layout: page
 title: my PhD in short. 
-description: a short summary of my PhD project.
+description: a short summary of my PhD project (in construction).
 img: assets/img/vol_rend_reg.gif
 importance: 1
 category: academic
