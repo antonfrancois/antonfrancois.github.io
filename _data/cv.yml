@@ -103,22 +103,22 @@
   type: time_table
   contents:
     - title: PhD Defense
-    year: 23rd May 2023
-    description: <a href="https://slides.com/antonfrancois/deck-d1ea90">Slides</a> - <a href="https://www.youtube.com/watch?v=BoqWAcYn_nY&t=3s">Video</a>.
+      year: 23rd May 2023
+      description: <a href="https://slides.com/antonfrancois/deck-d1ea90">Slides</a> - <a href="https://www.youtube.com/watch?v=BoqWAcYn_nY&t=3s">Video</a>.
 
     - title: Topological Data Analysis for Train-Free glioblastoma segmentation in MRI - Advantages and potential impact.
-    year: 6th April 2023
-    institution: <a href="https://map5.mi.parisdescartes.fr/events/journees-anr-mistic/"> ANR Mistic - Paris</a>
-    description: <a href="https://slides.com/antonfrancois/tda">Slides</a>
+      year: 6th April 2023
+      institution: <a href="https://map5.mi.parisdescartes.fr/events/journees-anr-mistic/"> ANR Mistic - Paris</a>
+      description: <a href="https://slides.com/antonfrancois/tda">Slides</a>
 
     - title: Weighted Metamorphosis for registration of images with different topology
-    year: 11th July 2022
-    institution: <a href="https://www.wbir.info/"> WBIR 2022 - Munich </a>
-    description: <a href="https://slides.com/antonfrancois/title-textregistering-medical-images">Slides</a> - <a href="https://www.youtube.com/watch?v=eBH5rJ4A3Qc">Video</a> - <a href="https://drive.google.com/file/d/1FjNpFHbyAkymWIAzq6w6owebaf-dmI9e/preview">Poster</a>
+      year: 11th July 2022
+      institution: <a href="https://www.wbir.info/"> WBIR 2022 - Munich </a>
+      description: <a href="https://slides.com/antonfrancois/title-textregistering-medical-images">Slides</a> - <a href="https://www.youtube.com/watch?v=eBH5rJ4A3Qc">Video</a> - <a href="https://drive.google.com/file/d/1FjNpFHbyAkymWIAzq6w6owebaf-dmI9e/preview">Poster</a>
 
-  - title: Metamorphic image registration using a semi-Lagrangian scheme
-    year: 22nd July 2021
-    institution: <a href="https://gsi2021.site.calypso-event.net/"> GSI 2021 - Paris</a>
+    - title: Metamorphic image registration using a semi-Lagrangian scheme
+      year: 22nd July 2021
+      institution: <a href="https://gsi2021.site.calypso-event.net/"> GSI 2021 - Paris</a>
 
 
 
