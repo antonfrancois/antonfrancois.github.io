@@ -3,6 +3,8 @@ title: "Talks"
 layout: gridlay
 sitemap: false
 permalink: /talks/
+nav: true
+nav_order: 4
 ---
 <div class="talks">
 
