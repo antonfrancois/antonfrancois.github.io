@@ -12,12 +12,12 @@ profile:
   #>
 #  <p>anton *dot* francois134 'at' gmail *dot* com </p>
 nav: true
-nav_order: 1
+nav_order: 2
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
-importance: 1
+importance: 2
 ---
 
 **Je suis actuellement en post-doctorat à l’ENS Paris-Saclay, au sein du Centre Borelli. Je participe au projet ANR RADIOAIDE, qui vise à mieux comprendre la leucoencéphalopathie de la substance blanche — une pathologie dégénérative survenant chez certains patients traités par radiothérapie pour des cancers cérébraux.**
