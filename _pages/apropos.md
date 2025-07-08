@@ -1,7 +1,7 @@
 ---
 layout: about
-title: à propos
-permalink: /
+title: à propos(fr)
+permalink: /apropos/
 # subtitle:  in short
 
 profile:
