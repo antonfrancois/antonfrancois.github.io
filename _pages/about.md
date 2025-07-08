@@ -18,11 +18,30 @@ social: true  # includes social icons at the bottom of the page
 importance: 1
 ---
 
-   
-My name is Anton François. I recently finished a PhD in Applied Mathematics in the [MAP5 laboratory](https://map5.mi.parisdescartes.fr) at Université Paris-Cité. My dissertation focused on diffeomorphic image registration, which allows for the comparison of healthy and glioblastoma-affected brain images. To do this, I used a method called Metamorphoses, which is inspired by LDDMM. [more about my Phd project here](https://antonfrancois.github.io/projects/1_project/)
 
+**I am currently a postdoctoral researcher at ENS Paris-Saclay, within the Centre Borelli. I am involved in the ANR-funded project RADIOAIDE, which aims to better understand white matter leukoencephalopathy — a degenerative condition that can arise in patients treated with radiotherapy for brain cancer.**
+In this context, I am responsible for developing image registration methods to establish morphological and geometric correspondences between multiple longitudinal MRI scans acquired from patients.
+The ultimate goal of the project is to reconstruct the spatiotemporal trajectories of brain voxels and to estimate geometric markers (such as growth, atrophy, and local deformation) that characterize the progression of post-therapeutic leukoencephalopathy.
    
-I hold a Master Degree "[Mathematic, Modelisation and learning](https://math-info.u-paris.fr/master-mathematiques-et-applications/specialite-mathematiques-modelisation-apprentissage/)" with a major in image automatic processing. Before that, I also obtained an interdisciplinary degree at [CRI](https://www.learningplanetinstitute.org) focused on biology. I am passionate about the open source software mentality and knowledge sharing. I believe that a healthy and collaborative work environment is essential for success. I am a good programmer and I can lead research projects. I am also a good communicator and I am able to work effectively in teams.
+**Since my PhD, I have been developing and maintaining the Demeter-Metamorphosis library, which implements the Metamorphosis algorithm — an extension of the LDDMM (Large Deformation Diffeomorphic Metric Mapping) framework — designed for image registration in settings where the topology may differ between the source and target images.**
+These methods belong to the theoretical framework of shape spaces, whose goal is to model, quantify, and represent geometric variations within a population of shapes, accounting for both diffeomorphic deformations and structural or intensity changes.
+
+
+These methods belong to the theoretical framework of shape spaces, whose goal is to model, quantify, and represent geometric variations within a population of shapes, accounting for both diffeomorphic deformations and structural or intensity changes.
+
+My research lies at the intersection of several major areas in applied mathematics:
+
+  -  **Differential geometry**, which provides the theoretical foundation for shape spaces and allows modeling of deformations through Riemannian structures.
+
+  - **Optimization**, used to solve registration problems under various constraints (regularization, data fidelity, structure preservation).
+
+  - **Image analysis** (and more broadly signal processing), which encompasses a wide range of techniques for processing, transforming, and extracting information from pixel-based data.
+
+  - **Numerical analysis of partial differential equations (PDEs)**, as the Metamorphosis framework describes the dynamics of images using models inspired by fluid mechanics.
+
+  - **Scientific computing**, as I implement the algorithms and must manage computational resources such as processing power and memory (both RAM and GPU).
+
+<!-- I hold a Master Degree "[Mathematic, Modelisation and learning](https://math-info.u-paris.fr/master-mathematiques-et-applications/specialite-mathematiques-modelisation-apprentissage/)" with a major in image automatic processing. Before that, I also obtained an interdisciplinary degree at [CRI](https://www.learningplanetinstitute.org) focused on biology. I am passionate about the open source software mentality and knowledge sharing. I believe that a healthy and collaborative work environment is essential for success. I am a good programmer and I can lead research projects. I am also a good communicator and I am able to work effectively in teams. -->
 
 <!-- Bien que mon doctorat ait porté sur l'imagerie médicale, j'ai également d'autres centres d'intérêt scientifiques. Depuis le début de mes études, je me suis passionné pour les systèmes complexes. J'ai mené de nombreux projets en rapport avec l'intelligence, à la fois d'un point de vue biologique et informatique. En particulier, j'ai été intéressé par le caractère mystérieux des synergies entre différents éléments. De par ma conscience écologique, les interactions entre les différents éléments d'un écosystème m'ont également fascinés (voir CV pour plus de détails). C'est pourquoi j'aimerais mettre mes compétences au service d'un projet écologique impactant. -->
    
