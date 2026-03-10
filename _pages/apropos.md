@@ -6,7 +6,7 @@ permalink: /apropos/
 
 profile:
   align: right
-  image: tete_anton.png
+  image: anton_montagne.png
   image_circular: true # crops the image to make it circular
   address: anton.francois (at) ens-paris-saclay 'dot' fr
   #>
