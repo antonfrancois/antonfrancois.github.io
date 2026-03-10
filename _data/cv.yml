@@ -39,12 +39,13 @@
 - title: Work Experience & Internships
   type: time_table
   contents:
-    -title: Post-doc in shape analysis
-     institution: ENS Paris-Saclay
-     year: 2024-2025
-     description:
+    - title: Post-doc in shape analysis
+      institution: ENS Paris-Saclay
+      year: 2024-2025
+      description:
         - <b>Subject:</b> Longitudinal spatial-temporal analysis of white matter hyperintensities in glioblastoma. 
         - In colaboration with <a href = "https://atrouve.perso.math.cnrs.fr/"> Alain Trouvé </a>.
+    
     - title: PhD in shape analysis
       institution: Université Paris-Cité
       year: 2019-2023
