@@ -36,9 +36,19 @@
       year: 2012 - 2015
       
 
-- title: Internships & Work Experience
+- title: Work Experience & Internships
   type: time_table
   contents:
+    -title: Post-doc in shape analysis
+     institution: ENS Paris-Saclay
+     year: 2024-2025
+     description:
+        - <b>Subject:</b> Longitudinal spatial-temporal analysis of white matter hyperintensities in glioblastoma. 
+        - In colaboration with <a href = "https://atrouve.perso.math.cnrs.fr/"> Alain Trouvé </a>.
+    - title: PhD in shape analysis
+      institution: Université Paris-Cité
+      year: 2019-2023
+
     - title: Internship in shape analysis
       institution: <a href = https://map5.mi.parisdescartes.fr/> MAP5 laboratory - Université Paris-Cité </a>
       year: Feb-July 2019
@@ -46,12 +56,12 @@
         - <b>Subject:</b> Junction automatic detection in point clouds
         - Under the suppervision of <a href = "https:helios2.mi.parisdescartes.fr//">Julie Delon</a>, <a href= "https://helios2.mi.parisdescartes.fr/~glaunes/"> Joan A. Glaunès. </a> and <a href = "https:helios2.mi.parisdescartes.fr//">Remy Abergel</a>
     
-    - title: Year off, Hitchhiking trip in Asia
-      # institution: California Institute of Technology, Pasadena, California, US
-      year: 2017 - 2018
-      description:
-        - Travelled through Nepal, India, Malesia, Thailand, Laos, Vietnam.
-        - I did many jobs as street musician, bartender, sound ingenior for a documentary,...
+    # - title: Year off, Hitchhiking trip in Asia
+    #   # institution: California Institute of Technology, Pasadena, California, US
+    #   year: 2017 - 2018
+    #   description:
+    #     - Travelled through Nepal, India, Malesia, Thailand, Laos, Vietnam.
+    #     - I did many jobs as street musician, bartender, sound ingenior for a documentary,...
     
     - title: Internship Natural image synthesis
       institution: <a href = https://map5.mi.parisdescartes.fr/> MAP5 laboratory - Université Paris Descartes </a>
@@ -97,30 +107,6 @@
       institution: <a href="https://nencki.edu.pl/laboratories/laboratory-of-emotions-neurobiology/"> Nencki Institute, Warsaw</a>
       year: December 2012
       description: Under the suppervision of <a href = "https://nencki.edu.pl/people/knapska-ewelina/?doing_wp_cron=1690711749.9518039226531982421875">Ewelina Knapska</a>.
-    
-
-- title: Talks
-  type: time_table
-  contents:
-    - title: PhD Defense
-      year: 23rd May 2023
-      description: <a href="https://slides.com/antonfrancois/deck-d1ea90">Slides</a> - <a href="https://www.youtube.com/watch?v=BoqWAcYn_nY&t=3s">Video</a>.
-
-    - title: Topological Data Analysis for Train-Free glioblastoma segmentation in MRI - Advantages and potential impact.
-      year: 6th April 2023
-      institution: <a href="https://map5.mi.parisdescartes.fr/events/journees-anr-mistic/"> ANR Mistic - Paris</a>
-      description: <a href="https://slides.com/antonfrancois/tda">Slides</a>
-
-    - title: Weighted Metamorphosis for registration of images with different topology
-      year: 11th July 2022
-      institution: <a href="https://www.wbir.info/"> WBIR 2022 - Munich </a>
-      description: <a href="https://slides.com/antonfrancois/title-textregistering-medical-images">Slides</a> - <a href="https://www.youtube.com/watch?v=eBH5rJ4A3Qc">Video</a> - <a href="https://drive.google.com/file/d/1FjNpFHbyAkymWIAzq6w6owebaf-dmI9e/preview">Poster</a>
-
-    - title: Metamorphic image registration using a semi-Lagrangian scheme
-      year: 22nd July 2021
-      institution: <a href="https://gsi2021.site.calypso-event.net/"> GSI 2021 - Paris</a>
-
-
 
 - title: Open Source Projects
   type: time_table
